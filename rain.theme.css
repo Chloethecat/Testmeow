@@ -1,0 +1,43 @@
+//META{"name":"rainmeow","description":"Anime theme made by WhatDaPuck#2080","author":"WhatDaPuck#2080","version":"2.2"}*//{}
+@import url(https://gitcdn.xyz/repo/WhatDaPuck/NotAnotherAnimeTheme/master/css/NotAnotherAnimeTheme.css);
+
+
+/*EDIT THIS TO CHANGE THE BACKGROUND, I RECOMMEND USING IMGUR TO HOST YOUR IMAGE*/
+[class~=app] {
+    background: url(https://cdn.discordapp.com/attachments/310861491794477058/403273499508080650/angel-girl-in-the-rain-anime.jpg) !important;
+    background-size: cover !important;
+}
+
+
+/*THIS CHANGES THE COLOR OF THE UNREAD NOTIFICATION*/
+.guilds-wrapper .guilds .guild.unread:not(.selected):before,
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
+    background: #43b581;    /*change this to any hex code you want*/
+}
+
+
+/*EDIT THIS TO CHANGE THE FRIENDS ICON IMAGE, I WOULD RECOMMEND USING IMGUR TO HOST YOUR IMAGE*/
+[class~=guilds-wrapper] [class~=guilds] [class~=friends-icon] {
+    background-image: url(https://cdn.discordapp.com/attachments/310861491794477058/362005075482116096/joinbaka.png)
+}
+
+
+/*IF YOU DON'T WANT A CUSTOM FRIENDS ICON JUST REMOVE THIS BIT OF CODE*/
+[class~=guilds-wrapper] [class~=guilds] [class~=friends-icon] {
+    display: block;
+    width: 50px;
+    height: 50px;
+    content: '';
+    background-size: 230%;    /*how zoomed in or zoomed out your image is*/
+    background-repeat: no-repeat;
+    background-position: top left;    /*the positioning of your image in the icon, for example "top left" uses the top left of the image*/
+}
+
+
+.layers-20RVFW, .layer-kosS71, .container-2OU7Cz, .typing-3eiiL_ {
+  background: transparent !important;
+}
+/* optionally adjust background brightness (0: original image, 1: black) */
+.layers-20RVFW {
+  background: rgba(0,0,0, 0.3) !important;
+}
